@@ -6,48 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Ordering App</title>
     <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
-   <!-- --- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --- -->
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
-    <header>
-      <h1>Jimmy's Diner</h1>
-      <p>The best burgers and pizzas in town</p>
-    </header>
-    <main>
-    <div class="item-container">
-        <div class="item-graphic">🍕</div>
-        <div class="item-details">
-        <h3 class="item-title">Pizza</h3>
-        <p class="item-description">Pepperoni,mushrom,mozarella</p>
-        <h5 class="item-price">$14</h5>
-    </div>
-    <button class="add-btn">+</button>
-    </div>
-    <div class="item-container">
-        <div class="item-graphic">🍕</div>
-        <div class="item-details">
-        <h3 class="item-title">Pizza</h3>
-        <p class="item-description">Pepperoni,mushrom,mozarella</p>
-        <h5 class="item-price">$14</h5>
-    </div>
-    <button class="add-btn">+</button>
-    </div>
-    <div class="item-container">
-        <div class="item-graphic">🍕</div>
-        <div class="item-details">
-        <h3 class="item-title">Pizza</h3>
-        <p class="item-description">Pepperoni,mushrom,mozarella</p>
-        <h5 class="item-price">$14</h5>
-    </div>
-    <button class="add-btn">+</button>
-    </div>
-   </main>
+      <header>
+        <h1>Jimmy's Diner</h1>
+        <p>The best burgers and pizzas in town</p>
+      </header>
+      <main>
+        <div class="item-container">
+          <div class="item-graphic">🍕</div>
+          <div class="item-details">
+            <h3 class="item-title">Pizza</h3>
+            <p class="item-description">Pepperoni,mushrom,mozarella</p>
+            <h5 class="item-price">$14</h5>
+          </div>
+          <button class="add-btn">+</button>
+        </div>
+        <div class="item-container">
+          <div class="item-graphic">🍕</div>
+          <div class="item-details">
+            <h3 class="item-title">Pizza</h3>
+            <p class="item-description">Pepperoni,mushrom,mozarella</p>
+            <h5 class="item-price">$14</h5>
+          </div>
+          <button class="add-btn">+</button>
+        </div>
+        <div class="item-container">
+          <div class="item-graphic">🍕</div>
+          <div class="item-details">
+            <h3 class="item-title">Pizza</h3>
+            <p class="item-description">Pepperoni,mushrom,mozarella</p>
+            <h5 class="item-price">$14</h5>
+          </div>
+          <button class="add-btn">+</button>
+        </div>
+      </main>
+      <section class="checkout-section">
+        <h2>Your Order</h2>
+        <div class="checkout-orders">
+          <div class="ordered-item">
+            <h5 class="item-title">Pizza</h5>
+            <button class="remove-btn">remove</button>
+            <h5 class="item-price">$14</h5>
+          </div>
+          <div class="ordered-item">
+            <h5 class="item-title">Pizza</h5>
+            <button class="remove-btn">remove</button>
+            <h5 class="item-price">$14</h5>
+          </div>
+        </div>
+        <div class="total">
+           <h3 class="total-price-text">Total price:</h3>
+           <h5 class="total-price">$26</h5>
+        </div>
+        <button class="purchase-btn">Complete order</button>
+      </section>
     </div>
   </body>
 </html>
