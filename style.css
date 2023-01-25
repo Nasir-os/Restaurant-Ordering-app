@@ -6,13 +6,19 @@ html {
 }
 body{
     font-family: 'Smythe', cursive;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4em;
+    background-color: #ffffff;
+    max-width: 600px;
 }
 
 header {
@@ -20,7 +26,31 @@ header {
   background-size: cover;
   color: #ffffff;
   height: 167px;
-  width: 600px;
+  width: 100%;
   padding: 2em;
   font-size: 1.4rem;
+}
+.item-container{
+    width: 508px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    position: relative;
+    border-bottom: solid 1px #DEDEDE;
+}
+
+.item-graphic{
+   font-size: 70px;
+}
+.add-btn{
+    font-size: 23px;
+    position: absolute;
+    right: 40px;
+    margin: 0 auto;
+    border: solid 1px #DEDEDE;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: none;
 }
