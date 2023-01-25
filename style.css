@@ -1,0 +1,26 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Smythe', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+header {
+  background-image: url(images/burger.png);
+  background-size: cover;
+  color: #ffffff;
+  height: 167px;
+  width: 600px;
+  padding: 2em;
+  font-size: 1.4rem;
+}
