@@ -63,6 +63,14 @@ main, .checkout-section{
     border-radius: 50%;
     background: none;
     text-align: center;
+    cursor: pointer;
+    transition: scale 0.1s ease-in-out;
+}
+.add-btn:hover{
+background-color: #DEDEDE;
+}
+.add-btn:active{
+    scale: 0.78;
 }
 .checkout-section{
     text-align: center;
