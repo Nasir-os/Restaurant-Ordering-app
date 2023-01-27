@@ -72,11 +72,12 @@ background-color: #DEDEDE;
 .add-btn:active{
     scale: 0.78;
 }
-.checkout-section{
+#checkout-section{
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 1em;
+    opacity: 0;
 }
 .checkout-orders{
     border-bottom: solid 1px #DEDEDE;
