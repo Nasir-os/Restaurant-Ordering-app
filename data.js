@@ -1,4 +1,4 @@
-export const menuArray = [
+ const menuArray = [
     {
         name: "Pizza",
         ingredients: ["pepperoni", "mushrom", "mozarella"],
@@ -14,10 +14,10 @@ export const menuArray = [
         id: 1
     },
         {
-        name: "Beer",
+        name: "Juice",
         ingredients: ["grain, hops, yeast, water"],
         price: 12,
-        emoji: "🍺",
+        emoji: "🧃",
         id: 2
     }
 ]

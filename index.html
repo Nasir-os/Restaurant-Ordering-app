@@ -14,7 +14,6 @@
     />
     <!-- --- -->
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" type="module" defer></script>
   </head>
   <body>
     <div class="container">
@@ -23,11 +22,12 @@
         <p>The best burgers and pizzas in town</p>
       </header>
       <main>
-        
+        <!-- render items here -->
       </main>
       <section id="checkout-section">
         <h2>Your Order</h2>
         <div class="checkout-orders">
+          <!-- render cart items here -->
         </div>
         <div class="total">
           <h3 class="total-price-text">Total price:</h3>
@@ -35,6 +35,21 @@
         </div>
         <button class="purchase-btn">Complete order</button>
         </section>
+        <div class="modal">
+          <form class="modal-content">
+            <h3>Enter card details</h3>
+            <input type="text" class="name" placeholder="Enter your name" required>
+            <input type="number" placeholder="Enter card number" minlength="15"  maxlength="15" required>
+            <input type="number" placeholder="Enter CVV" minlength="3" maxlength="3" required>
+            <button type="submit" class="pay-btn">Pay</button>
+            
+          </form>
+        </div>
     </div>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+
+    <form action="get"></form>
+
   </body>
 </html>
